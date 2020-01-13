@@ -1,1 +1,2 @@
 jupyter serverextension enable nbgitpuller --sys-prefix
+R -e "source('install.r')"
