@@ -1,7 +1,7 @@
 setHook("rstudio.sessionInit", function(newSession) {
    if (newSession){
      if( is.null(rstudioapi::getActiveProject()) ){
-     rstudioapi::openProject("/home/jovyan/my_rproject")
+     #rstudioapi::openProject("/home/jovyan/my_rproject")
    }
 
 
