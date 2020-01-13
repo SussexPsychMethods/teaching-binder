@@ -9,4 +9,4 @@ setHook("rstudio.sessionInit", function(newSession) {
    if(rstudioapi::getActiveProject() == "/home/jovyan/my_rproject"){
      #rstudioapi::navigateToFile("README.md")
    }
-}, action = "append"
+}, action = "append")
