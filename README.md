@@ -3,7 +3,7 @@
 
 This is a multimultipurpose binder repo for R teaching at the University of Sussex. 
 
-The installed packages can be viewed in [`install.R`](install.R)
+The installed packages can be viewed in [`install.r`](install.r)
 
 The **R** version and **MRAN** timestamp can be view in [`runtime.txt`](runtime.txt)
 
