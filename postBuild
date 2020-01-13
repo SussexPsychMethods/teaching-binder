@@ -1,13 +1,13 @@
-
-echo setHook("rstudio.sessionInit", function(newSession) {               >  /home/jovyan/.Rprofile
-echo   if (newSession){                                                  >> /home/jovyan/.Rprofile
-echo     if( is.null(rstudioapi::getActiveProject()) ){                  >> /home/jovyan/.Rprofile
-echo     rstudioapi::openProject("/home/rstudio/fischerRRR-manuscript")  >> /home/jovyan/.Rprofile
-echo   }                                                                 >> /home/jovyan/.Rprofile
-echo                                                                     >> /home/jovyan/.Rprofile
-echo                                                                     >> /home/jovyan/.Rprofile
-echo }                                                                   >> /home/jovyan/.Rprofile
-echo   if(rstudioapi::getActiveProject() == "/home/jovyan/my_rproject"){ >> /home/jovyan/.Rprofile
-echo     #rstudioapi::navigateToFile("README.md")                        >> /home/jovyan/.Rprofile
-echo   }                                                                 >> /home/jovyan/.Rprofile
-echo }, action = "append")                                               >> /home/jovyan/.Rprofile
+#!/bin/bash
+echo ' setHook("rstudio.sessionInit", function(newSession) {              ' >  .Rprofile
+echo '   if (newSession){                                                 ' >> .Rprofile
+echo '     if( is.null(rstudioapi::getActiveProject()) ){                 ' >> .Rprofile
+echo '     rstudioapi::openProject("/home/rstudio/fischerRRR-manuscript") ' >> .Rprofile
+echo '   }                                                                ' >> .Rprofile
+echo '                                                                    ' >> .Rprofile
+echo '                                                                    ' >> .Rprofile
+echo ' }                                                                  ' >> .Rprofile
+echo '   if(rstudioapi::getActiveProject() == "/home/jovyan/my_rproject"){' >> .Rprofile
+echo '     #rstudioapi::navigateToFile("README.md")                       ' >> .Rprofile
+echo '   }                                                                ' >> .Rprofile
+echo ' }, action = "append")                                              ' >> .Rprofile
