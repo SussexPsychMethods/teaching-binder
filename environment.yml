@@ -1,2 +1,4 @@
-pip:
-  nbgitpuller
+dependencies:
+  - pip:
+    - pynrrd
+    - nbgitpuller
